@@ -1,0 +1,21 @@
+{
+  "name": "next_attempt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 7777",
+    "start": "next start -p 7777",
+    "build": "next build",
+    "export": "npm run build && next export"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.0.3",
+    "now": "^16.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
